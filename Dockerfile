@@ -16,7 +16,7 @@ RUN apt update && apt install -y curl sudo wget unzip bzip2 libdrm-dev libxkbcom
 # Android SDK ARGS
 #==============================
 ARG ARCH="x86_64" 
-ARG TARGET="google_apis_playstore"  
+ARG TARGET="aosp_atd"
 ARG API_LEVEL="34" 
 ARG BUILD_TOOLS="34.0.0"
 ARG ANDROID_ARCH=${ANDROID_ARCH_DEFAULT}
