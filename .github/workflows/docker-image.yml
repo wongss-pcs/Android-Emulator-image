@@ -16,6 +16,7 @@ jobs:
           username: ${{secrets.DOCKER_USERNAME}}
           password: ${{secrets.DOCKER_PASSWORD}}
 
+
       - name: Docker build and push image
         if: startsWith(matrix.os, 'ubuntu')
         env:
